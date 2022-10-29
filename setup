@@ -5,3 +5,5 @@ sudo apt autoremove
 
 sudo apt install xrdp
 sudo apt install cockpit
+
+sudo nano /etc/systemd/logind.conf
