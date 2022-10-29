@@ -13,6 +13,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
 portainer/portainer-ce:2.9.3
 
 sudo nano /etc/systemd/logind.conf
+sudo service systemd-logind restart
 
 sudo apt install slim
 sudo apt install ubuntu-desktop
